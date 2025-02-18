@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.container
+{
+  background-color:hsla(115, 49.00%, 90.00%, 0.98);
+  max-width: 100% !important;
+  max-height: 100% !important;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+}
+
+h1
+{
+    background-color:rgba(52, 91, 82, 0.86);
+    color: rgb(238, 250, 202) !important;
+    text-align: center;
+    padding: 10px;
+    font-size:30px;
+    margin: 0px !important;
+
+}
+
+h2
+{
+  background-color:rgba(5, 31, 35, 0.86);
+  color: hsla(115, 49.00%, 90.00%, 0.98) !important;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+
+}
+
+h3
+{
+  background-color:rgba(5, 31, 35, 0.86);
+  color: hsla(115, 49.00%, 90.00%, 0.98) !important;
+  font-size: 15px;
+  text-align: center;
+  adding: 10px;
+  margin: 0px;
+
+}
+
+form label
+{
+  text-align: center;
+  color: rgb(217, 239, 151);
+  font-size: 15px;
+}
+
+form
+{
+  background-color:rgba(92, 128, 113, 0.86);
+  color: rgb(231, 248, 180);
+  text-align: center;
+  padding: 10px;
+  margin: 2px;
+  border: 3px solid black;
+    
+}
+
+p
+{
+  text-align:center
+
+}
+
+
+footer
+{
+  background-color:rgb(96, 124, 107);
+  color: rgb(231, 248, 180);
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+li
+{
+  font-size: 20px;
+}
+
+li:hover
+{
+  background-color:rgba(89, 152, 167, 0.86);
+}
+
+span
+{
+  text-decoration: underline;
+  text-decporation-color: rgb(231, 248, 180);
+}
+
+span:hover
+{
+  background-color:rgba(5, 31, 35, 0.86);
+}
+
+button 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #171717;
+  padding: 1em 2em;
+  border: none;
+  border-radius: .6rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  margin:10px;
+  }
+  
+  button span:not(:nth-child(6)) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  background-color:rgb(72, 125, 155);
+  border-radius: 50%;
+  transition: .6s ease;
+  }
+  
+  button span:nth-child(6) {
+    position: relative;
+  }
+  
+  button span:nth-child(1) {
+    transform: translate(-3.3em, -4em);
+  }
+  
+  button span:nth-child(2) {
+    transform: translate(-6em, 1.3em);
+  }
+  
+  button span:nth-child(3) {
+    transform: translate(-.2em, 1.8em);
+  }
+  
+  button span:nth-child(4) {
+    transform: translate(3.5em, 1.4em);
+  }
+  
+  button span:nth-child(5) {
+    transform: translate(3.5em, -3.8em);
+  }
+  
+  button:hover span:not(:nth-child(6)) {
+    transform: translate(-50%, -50%) scale(4);
+    transition: 1.5s ease;
+  }
+    
+
+#para1
+{
+  background-color:rgba(15, 93, 89, 0.85);
+  color: rgb(246, 255, 230);
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+
+}
+
+.carousel-inner img {
+  height: 300px; 
+  object-fit: cover; 
+}
+
+
